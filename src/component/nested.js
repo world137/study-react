@@ -5,8 +5,12 @@ const Title = () => {
 }
 
 const Description = () =>{
+    const name = "world";
     return(
-        <p>ส่วนทดสอบที่ 1</p>
+        <div>
+            <p>ส่วนทดสอบที่ 1</p>
+            <p>{name}</p>
+        </div>
     );
 }
 

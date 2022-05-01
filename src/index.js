@@ -56,10 +56,10 @@ import './index.css';
 // );
 
 
-import Nested from './component/nested';
+import Props from './component/prop';
 const root = ReactDOM.createRoot(document.getElementById('root5'));
 root.render(
   <React.StrictMode>
-    <Nested />
+    <Props/>
   </React.StrictMode> 
 );
