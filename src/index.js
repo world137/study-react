@@ -56,7 +56,7 @@ import './index.css';
 // );
 
 
-import Props from './component/prop';
+import Props from './component/proparray';
 const root = ReactDOM.createRoot(document.getElementById('root5'));
 root.render(
   <React.StrictMode>
